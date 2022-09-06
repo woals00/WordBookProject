@@ -47,8 +47,8 @@ public class Word {
             for(int i = 0; i < level; i++) {
                 slevel += "*";
             }
-            String str = String.format("%3s", slevel)
-                    + String.format("%-10s", slevel) + word + " " + meaning;
+            String str = String.format("%-3s", slevel)
+                    + String.format("%15s", word) + "   " + meaning;
             return str;
         }
 }

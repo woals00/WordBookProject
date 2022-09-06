@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5621bc7-428d-485c-ba8b-d3b08281a4fd" name="Changes" comment="add screenshots directory">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ICRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" afterDir="false" />
+    <list default="true" id="d5621bc7-428d-485c-ba8b-d3b08281a4fd" name="Changes" comment="create 4class and 1 interface.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662390050856</updated>
       <workItem from="1662390052132" duration="746000" />
-      <workItem from="1662448931321" duration="413000" />
+      <workItem from="1662448931321" duration="915000" />
     </task>
     <task id="LOCAL-00001" summary="create a project">
       <created>1662390343291</created>
@@ -82,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662390665849</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create 4class and 1 interface.">
+      <created>1662449422540</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662449422540</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +107,7 @@
     <MESSAGE value="create a project" />
     <MESSAGE value="modify .gitignore" />
     <MESSAGE value="add screenshots directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="add screenshots directory" />
+    <MESSAGE value="create 4class and 1 interface." />
+    <option name="LAST_COMMIT_MESSAGE" value="create 4class and 1 interface." />
   </component>
 </project>
