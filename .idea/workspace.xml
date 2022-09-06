@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5621bc7-428d-485c-ba8b-d3b08281a4fd" name="Changes" comment="modify Word.java and WordCRUD.java">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="d5621bc7-428d-485c-ba8b-d3b08281a4fd" name="Changes" comment="add READMe.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662390050856</updated>
       <workItem from="1662390052132" duration="746000" />
-      <workItem from="1662448931321" duration="1031000" />
+      <workItem from="1662448931321" duration="1080000" />
     </task>
     <task id="LOCAL-00001" summary="create a project">
       <created>1662390343291</created>
@@ -92,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662449894475</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add READMe.md">
+      <created>1662449979634</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662449979634</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +122,7 @@
     <MESSAGE value="add screenshots directory" />
     <MESSAGE value="create 4class and 1 interface." />
     <MESSAGE value="modify Word.java and WordCRUD.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify Word.java and WordCRUD.java" />
+    <MESSAGE value="add READMe.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="add READMe.md" />
   </component>
 </project>
