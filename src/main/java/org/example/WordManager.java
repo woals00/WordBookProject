@@ -40,6 +40,12 @@ public class WordManager {
             else if(option == 1) {
                 wordCRUD.listAll();
             }
+            else if(option == 5){
+                wordCRUD.updateItem();
+            }
+            else if(option == 6){
+
+            }
         }
 //		System.out.println(option);
     }
