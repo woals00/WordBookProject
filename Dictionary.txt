@@ -1,1 +1,32 @@
-1|asdf|뜻
+1|require|요구하다
+1|technology|과학기술
+2|individual|개인
+2|provide|공급하다
+1|object|물체 , 반대하다
+1|level|수준, 정도
+3|involve|포함하다, 관계하다
+3|employ|고용하다
+2|attitude|태도
+1|improve|개량하다
+1|research|조사하다
+2|supply|공급하다
+3|tend|～하는 경향이 있다
+2|affect|～에 영향을 미치다
+3|thus|이와 같이, 그러므로
+2|benefit|이익, 은혜, 자선, 특권
+3|demand|요구하다
+2|occasion|경우, 행사, 의식
+2|fashion|모양, 방식, 유행
+2|recognize|알아보다, 인식하다
+2|proper|적당한, 고유의
+2|due|지불 기일이 된, ～할 예정인, 때문에
+1|behave|행동하다, 작용하다
+1|opportunity|기회
+2|determine|결정하다, 결심하다
+1|generate|발생하다
+1|exist|존재하다
+3|regret|유감, 후회 , 슬퍼하다, 후회하다
+1|occur|일어나다, 떠오르다
+3|available|쓸모 있는, 당선 가능한
+2|professional|직업상의 , 전문가
+3|frequent|빈번한 , 빠른
