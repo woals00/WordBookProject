@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5621bc7-428d-485c-ba8b-d3b08281a4fd" name="Changes" comment="add loadFile and saveFile and searchItemByLevel">
+    <list default="true" id="d5621bc7-428d-485c-ba8b-d3b08281a4fd" name="Changes" comment="add Word in Dictionary.txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dictionary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
       <workItem from="1662466953069" duration="2120000" />
       <workItem from="1663045913166" duration="3475000" />
       <workItem from="1663055701774" duration="843000" />
-      <workItem from="1663057611627" duration="4097000" />
+      <workItem from="1663057611627" duration="5167000" />
     </task>
     <task id="LOCAL-00001" summary="create a project">
       <created>1662390343291</created>
@@ -176,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663060579514</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add Word in Dictionary.txt">
+      <created>1663062063300</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1663062063300</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +216,7 @@
     <MESSAGE value="add deleteItem" />
     <MESSAGE value="add searchItem" />
     <MESSAGE value="add loadFile and saveFile and searchItemByLevel" />
-    <option name="LAST_COMMIT_MESSAGE" value="add loadFile and saveFile and searchItemByLevel" />
+    <MESSAGE value="add Word in Dictionary.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Word in Dictionary.txt" />
   </component>
 </project>

@@ -112,7 +112,7 @@ public class WordCRUD implements ICRUD{
         System.out.print("=> 정말로 삭제하시겠습니까?(y/n) : ");
         String answer = s.next();
         if(answer.equalsIgnoreCase("y")){
-            list.remove((int)idlist.get(id-1));
+            list.remove(list.get(id-1));
             System.out.println("단어가 삭제되었습니다");
         }
         else{
