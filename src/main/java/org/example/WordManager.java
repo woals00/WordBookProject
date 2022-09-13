@@ -44,7 +44,7 @@ public class WordManager {
                 wordCRUD.updateItem();
             }
             else if(option == 6){
-
+                wordCRUD.deleteItem();
             }
         }
 //		System.out.println(option);
