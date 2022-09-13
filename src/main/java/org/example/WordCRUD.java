@@ -106,5 +106,15 @@ public class WordCRUD implements ICRUD{
             System.out.println("취소되었습니다");
         }
     }
+
+    public void searchItem() {
+        System.out.print("=> 검색할 단어 입력 : ");
+        String keyword = s.next();
+        ArrayList<Integer> idlist = this.listAll(keyword);
+    }
+
+    public void searchItemByLevel() {
+        System.out.print("=> 레벨(1:초급, 2:중급, 3: 고급) 선택 : ");
+    }
 }
 
