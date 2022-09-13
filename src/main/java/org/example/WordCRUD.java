@@ -1,5 +1,6 @@
 package org.example;
 
+import java.io.*;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -75,6 +76,18 @@ public class WordCRUD implements ICRUD{
         return idlist;
     }
 
+    public void listAll(int level){
+        System.out.println("------------------------------");
+        for(int i = 0; i < list.size(); i++) {
+            int ilevel = list.get(i).getLevel();
+            if(ilevel == level) {
+                System.out.print((i + 1) + " ");
+                System.out.println(list.get(i).toString());
+            }
+        }
+        System.out.println("------------------------------");
+    }
+
     public void updateItem() {
         System.out.print("=> 수정할 단어 검색 : ");
         String keyword = s.next();
@@ -115,6 +128,44 @@ public class WordCRUD implements ICRUD{
 
     public void searchItemByLevel() {
         System.out.print("=> 레벨(1:초급, 2:중급, 3: 고급) 선택 : ");
+        int level = s.nextInt();
+        listAll(level);
+    }
+
+    public void loadFile(){
+            try {
+                BufferedReader br = new BufferedReader(new FileReader("Dictionary.txt"));
+
+                String line;
+                int count = 0;
+                while(true){
+                    line = br.readLine();
+                    if(line == null) break;
+                    String data[] = line.split("\\|");
+                    int level = Integer.parseInt(data[0]);
+                    String word = data[1];
+                    String meaning = data[2];
+                    list.add(new Word(0,level,word,meaning));
+                    count++;
+                }
+                br.close();
+                System.out.println("==>" + count + "개 로딩완료!");
+            } catch (IOException e){
+                e.printStackTrace();
+            }
+    }
+
+    public void saveFile() {
+        try {
+            PrintWriter pr = new PrintWriter(new FileWriter("Dictionary.txt"));
+            for(Word one : list){
+                pr.write(one.toFileString() + "\n");
+            }
+            pr.close();
+            System.out.println("데이터 저장 완료!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
 

@@ -31,6 +31,7 @@ public class WordManager {
 
 
     public void start() {
+        wordCRUD.loadFile();
         while(true) {
             int option = selectOption();
             if(option == 0) break;
@@ -51,6 +52,9 @@ public class WordManager {
             }
             else if(option == 6){
                 wordCRUD.deleteItem();
+            }
+            else if(option == 7){
+                wordCRUD.saveFile();
             }
         }
 //		System.out.println(option);
