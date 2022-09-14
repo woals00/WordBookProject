@@ -22,8 +22,7 @@
 2|due|지불 기일이 된, 할 예정인, 때문에
 1|behave|행동하다, 작용하다
 1|opportunity|기회
-2|determine|결정하다, 결심하다
-1|generate|발생시키다
+1|generate|발생시키다, 만들어내다, 생성하다
 1|exist|존재하다
 3|regret|유감, 후회 , 슬퍼하다, 후회하다
 1|occur|일어나다, 떠오르다
